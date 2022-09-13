@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* transition duration to control the speed of fade effect */
+.carousel-item {
+    transition: transform 2.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 2.6s;
+}
+
+#navbar-1 {
+    background-color:#f8ffc1;
+}
+
+.nav-item{
+    font-family: Volkhov;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+   
+}
+.nav-item a{
+     color: #ffe481;
+     padding-right: 20px;
+}
+
+.d-block{
+    width: 50%;
+    height: 80%;
+}
+
+.img-1{
+    width: 200px;
+}
+.parallax {
+    background-image: url(./imgs/DSC03800.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.icon-1 {
+    width: 20px;
+    height: 20px
+}
+
+.btn{
+    margin-top: 20%;
+    transition: 0.1s;
+}
+
+#btn-1 {
+    border-color: rgb(255, 255, 255);
+}
+
+#btn-2 {
+    border-color: rgb(255, 255, 255);
+}
+
+#btn-1:hover {
+    border-color: rgb(188, 188, 188);
+}
+
+#btn-2:hover {
+    border-color: rgb(182, 183, 183);
+}
+
+/* parallax stratas */
+.topInfo {
+    background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url(./img/DSC03800.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.topInfoText {
+    color: white;
+    padding-top: 275px;
+    font-size: 3.3em;
+}
+
+.bannerBtn {
+    border-style: solid;
+    border-width: 2px;
+    border-color:#f8ffc1;
+    border-radius: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 130px;
+    font-size: 1.45em;
+    color:#f8ffc1;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out 0s;
+}
+.col{
+    color: #B4A87D;
+    font-family: Volkhov;
+    font-size: 14px;
+}
+.col a{
+    color: #898062;
+    text-decoration: underline;
+}
+
+#air{
+    text-decoration: underline;
+}
+
+.col a:hover{
+     color: #8F8F8F;
+}
+.cl{
+    color: #8F8F8F;
+    line-height: 3;
+    font-size: 11px;
+}
+/* parallax -btn stratas */
+#btn-book
+{
+    border: 1px solid;
+    width: 40px;
+    height:30px;
+}
+
+.rounded{
+    width: 40%;
+}
+
+.text-center a{
+    text-decoration: underline;
+     color: #B4A87D;
+}
+
+
+.text-center a:hover{
+    color: #8F8F8F;
+}
+
+#first-footer{
+    margin-top: -20px;
+    font-size: 12px;
+    color: #B4A87D;
+    font-weight: 780;
+}
+
+#last-footer{
+    margin-top:-30px;
+    font-size: 12px;
+    color: #B4A87D;
+    font-weight: 780;
+}
+
